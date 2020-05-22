@@ -1,0 +1,62 @@
+#pubg-map{
+  display: block;
+  position: absolute;
+  top: 110px;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+}
+path:hover, circle:hover {
+  stroke: #002868 !important;
+  stroke-width:2px;
+  stroke-linejoin: round;
+  fill: #002868 !important;
+  cursor: pointer;
+}
+#path67 {
+  fill: none !important;
+  stroke: #A9A9A9 !important;
+  cursor: default;
+}
+#info-box {
+  display: none;
+  position: absolute;
+  top: 110px;
+  left: 0px;
+  z-index: 1;
+  background-color: #ffffff;
+  border: 2px solid #BF0A30;
+  border-radius: 5px;
+  padding: 5px;
+  font-family: arial;
+}
+#titleright {
+  width:5%;
+  position:absolute;
+  top: -20px;
+  left: 400px;
+}
+.w3-button {
+    position: relative;
+    margin: 0;
+    padding: 1em;
+    z-index: 1;
+}
+.w3-button a {
+    color: #FFFFFF;
+    font-size: 3em;
+    padding: .5em 1em;
+    border: solid 2px #FF9800;
+    text-decoration: none;
+    border-radius: 30px;
+    margin: 0;
+    background:#FF9800;
+}
+.w3-button a:hover {
+    color: #FFFFFF;
+    background:none;
+    border: solid 2px #FFFFFF;
+}
+.w3-button {
+  padding: .5em;
+ }
