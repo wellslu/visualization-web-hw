@@ -69,4 +69,4 @@ for i in range(50):
     
     res = pd.concat([res,b],ignore_index=True)
 	2.19	233963.190051	455149.464046	49.0	10544.0
-res.to_csv(r'C:\Users\wells\OneDrive\Desktop\killer_group.csv',encoding='utf_8_sig',index=False)
+res.to_csv('killer_group.csv',encoding='utf_8_sig',index=False)
