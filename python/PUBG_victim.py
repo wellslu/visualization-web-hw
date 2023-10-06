@@ -68,4 +68,4 @@ for i in range(50):
     
     
     res = pd.concat([res,b],ignore_index=True)
-res.to_csv(r'C:\Users\wells\OneDrive\Desktop\victim_group.csv',encoding='utf_8_sig',index=False)
+res.to_csv('victim_group.csv',encoding='utf_8_sig',index=False)
